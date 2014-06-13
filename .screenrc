@@ -33,11 +33,9 @@ bindkey "^[[1;5C" next
 bindkey "^[[1;5D" prev
 
 #for mac
-bindkey "^[[5C" next
-bindkey "^[[5D" prev
-
-bindkey "^[[C" next
-bindkey "^[[D" prev
-bindkey "^[x" next
-bindkey "^[z" prev
+bindkey "^[f" next
+bindkey "^[b" prev
+bindkey "^[[1;9C" next
+bindkey "^[[1;9D" prev
+bindkey "ç" screen
 
